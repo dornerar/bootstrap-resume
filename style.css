@@ -1,0 +1,94 @@
+/* General Body Styling */
+body {
+    background-color: #dbedd7;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #1c4b27; /* Dark green background */
+    color: white;
+    padding: 40px;
+    border-bottom: 5px solid #0a6e1a;
+}
+
+header h1 {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    margin-top: 30px; /* Adjust space between carousel and title */
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Profile Image ID Selector */
+#profile-img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid white;
+}
+
+/* Sidebar Styling */
+aside {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-left: 5px solid #0a6e1a;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Skills Section Descendant Selector */
+#skills-section ul li {
+    font-weight: bold;
+    color: #0a6e1a;
+}
+
+/* Headings */
+h2 {
+    color: #0a6e1a;
+    border-bottom: 2px solid #0a6e1a;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #1c4b27;
+}
+
+/* Unordered List Styling */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li::before {
+    content: "✅ ";
+    color: #0a6e1a;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #0a6e1a;
+    color: white;
+    padding: 15px;
+}
+
+.carousel-inner img {
+    width: 50% !important; /* Make images 50% of their original size */
+    height: auto !important; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center the images */
+    border-radius: 15px; /* Round the corners */
+}
